@@ -3,15 +3,15 @@
 	let { children } = $props();
 </script>
 
-<div class="min-h-screen bg-gray-50">
-	<header class="bg-white border-b border-gray-200">
+<div class="min-h-screen bg-gray-900 text-gray-100">
+	<header class="bg-gray-800 border-b border-gray-700">
 		<div class="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between">
-			<a href="/" class="text-xl font-semibold text-gray-900 hover:text-gray-600">
+			<a href="/" class="text-xl font-semibold text-white hover:text-gray-300">
 				My Words
 			</a>
 			<a
 				href="/add"
-				class="px-4 py-2 bg-gray-900 text-white text-sm rounded-md hover:bg-gray-800 transition-colors"
+				class="px-4 py-2 bg-white text-gray-900 text-sm rounded-md hover:bg-gray-200 transition-colors"
 			>
 				Add Word
 			</a>
