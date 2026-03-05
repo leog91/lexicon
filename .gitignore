@@ -7,5 +7,4 @@ build
 *.local
 .DS_Store
 dist
-static
 .wrangler
